@@ -74,7 +74,6 @@ class Curl extends AbstractCurl {
      */
     public function setURL($url) {
         $this->url = $url;
-        return $this;
     }
 
     /**
@@ -119,7 +118,6 @@ class Curl extends AbstractCurl {
      */
     public function setOption($key, $value) {
         $this->options[$key] = $value;
-        return $this;
     }
 
     /**
@@ -141,7 +139,6 @@ class Curl extends AbstractCurl {
      */
     public function setOptions(array $options = array()) {
         $this->options = $options;
-        return $this;
     }
 
     /**
