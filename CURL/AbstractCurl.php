@@ -189,8 +189,6 @@ abstract class AbstractCurl {
      * @method setMethod
      * @return object \Anchovy\CURLBundle\CURL\AbstractCurl
      */
-    public function setMethod($method = 'POST', array $param = array()) {
-        return $this;
-    }
+    abstract public function setMethod($method = 'POST', array $param = array());
 
 }
